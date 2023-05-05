@@ -7,8 +7,8 @@ services:
     image: cm2network/mordhau
     volumes:
       - ./mordhau-data:/home/steam/mordhau-dedicated/
-      - ./Engine.ini:/home/steam/mordhau-dedicated/cfg/Engine.ini
-      - ./Game.ini:/home/steam/mordhau-dedicated/cfg/Game.ini
+      - ./deathmatch/Engine.ini:/home/steam/mordhau-dedicated/cfg/Engine.ini
+      - ./deathmatch/Game.ini:/home/steam/mordhau-dedicated/cfg/Game.ini
     environment:
       - SERVER_ADMINPW="veli123"
       - SERVER_PW="veliveli"
